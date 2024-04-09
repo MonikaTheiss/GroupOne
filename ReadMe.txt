@@ -11,10 +11,6 @@ Tifuh-Azah Nche u21653268
 In order for the web page to execute it needs to be run through XAMPP and Apache. 
 phpmyadmin link:
 https://wheatley.cs.up.ac.za/phpmyadmin/
-username:
-u21434558
-password:
-FDTLBW5E5AFRTWNBOT4PZBHIJWY2Y4KT
 
 -Default Users-
 Manager User: 
