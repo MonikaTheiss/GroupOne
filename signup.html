@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  	<title>Cellar Secrets Sign Up</title>	
+	<link rel="stylesheet" href="css/loginStyle.css">
+	
+</head>
+<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="wrap d-md-flex">
+				<div class="img" style="background-image: url(images/login-image.jpg);">
+		    </div>
+				
+			<div class="login-wrap p-4 p-md-5">
+			    <h1 style="font-family:  Helvetica, sans-serif;"> Sign up</h1>
+				<form id="form" action="../backend/signup-validation.php" method="POST">
+					  <div class="inputControl">
+						<label style="font-family:  Helvetica, sans-serif;" class="label" for="FirstName">First Name</label>
+						<input id="FirstName" name="FirstName" type="text" class="form-control" placeholder="First name">
+						<div style="color: #ff3860;" class="error"></div>
+					</div>
+					<div class="inputControl">
+						<label style="font-family:  Helvetica, sans-serif;" class="label" for="LastName">Last name</label>
+						<input id="LastName" name="LastName" type="text" class="form-control" placeholder="Last name">
+						<div style="color: #ff3860;" class="error"></div>
+					</div>
+					<div class="inputControl">
+						<label style="font-family:  Helvetica, sans-serif;" class="label" for="Email">Email</label>
+						<input id="Email" name="Email" type="text" class="form-control" placeholder="Email">
+						<div style="color: #ff3860;" class="error"></div>
+					</div>
+		            <div class="inputControl">
+		            	<label style="font-family:  Helvetica, sans-serif;" class="label" for="Password">Password</label>
+		              	<input id="Password" type="password" name="Password" class="form-control" placeholder="Password">
+						  <div style="color: #ff3860;" class="error"></div>
+					</div>
+		            <div class="button-div">
+		            	<button id="btnid" type="submit" class="form-control btn btn-primary rounded submit">Sign Up</button>
+		            </div>
+		        </form> 
+		        <p style="text-align: center;">Already a member? <a style="color: #952525;" data-toggle="tab" href="login.html">Sign In</a></p>
+				<a href="home.php">
+					<span class="close">&times;</span>
+				</a>
+			</div>
+		</div>
+		</div>
+	</section>
+	<script defer src="js/signup.js"></script>
+</body>
+</html>

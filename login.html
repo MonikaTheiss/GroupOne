@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  	<title>Cellar Secrets Login</title>	
+	<link rel="stylesheet" href="css/loginstyle.css">
+</head>
+<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="wrap d-md-flex">
+				<div class="img" style="background-image: url(images/login-image.jpg);">
+		    </div>
+				
+			<div class="login-wrap p-4 p-md-5">
+			    <h1 style="font-family:  Helvetica, sans-serif;">Login</h1>
+				<form id="form" action="../backend/login-validation.php" method="POST">
+					<div class="input-control">
+			      		<label style="font-family:  Helvetica, sans-serif;" class="label" for="Username">Email</label>
+			      		<input id="Username" name="Username" type="text" class="form-control" placeholder="Email">
+			      		<div style="color: #ff3860;" class="error"></div>
+			      	</div>
+		            <div class="input-control">
+		            	<label style="font-family:  Helvetica, sans-serif;" class="label" for="Userpassword">Password</label>
+		              	<input id="Userpassword" type="password" name="Userpassword" class="form-control" placeholder="Password">
+						<div style="color: #ff3860;" class="error"></div>
+					</div>
+		            <div class="button-div">
+		            	<button id="btnid" type="submit" class="form-control btn btn-primary rounded submit">Sign In</button>
+						
+					</div>
+		        </form> 
+		        <p style="text-align: center;">Not a member? <a style="color: #952525;" data-toggle="tab" href="signup.html">Sign Up</a></p>
+				<a href="home.php">
+					<span class="close">&times;</span>
+				</a>
+			</div>
+			
+		</div>
+		</div>
+	</section>
+	<!-- <script defer src="js/login.js"></script> -->
+
+</body>
+</html>
+
+
